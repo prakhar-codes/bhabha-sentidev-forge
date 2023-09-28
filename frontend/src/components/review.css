@@ -1,0 +1,26 @@
+.avatar{
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+}
+
+.person-details{
+    display: flex;
+    gap: 15px;
+    font-family: 'Baloo Chettan 2';
+    font-weight: 500;
+}
+
+.reviewcard{
+    padding-bottom: 10px;
+    border-bottom: 0.1px solid lightgray;
+    margin: 40px;
+    font-family: 'Baloo Chettan 2';
+    font-size: 20px;
+}
+
+.review-content{
+    font-size: 17px;
+    margin: 0;
+    text-indent: 50px;
+}

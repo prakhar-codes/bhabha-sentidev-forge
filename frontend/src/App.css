@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Chettan+2&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Chettan+2:wght@500&display=swap");
+
+.navbar {
+  background-color: #007bff;
+  width: 100vw;
+  color: #fff;
+  font-family: "Baloo Chettan 2";
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding: 15px;
+}
+
+.main-content {
+  display: grid;
+  gap: 20px;
+  width: 100%;
+  padding: 0 20px; /* Add some padding to prevent content from sticking to the edges */
+  margin: auto;
+  padding-right: 5%;
+  /* Create responsive columns */
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+}
+
+
+.floating-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.floating-button button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  font-size: 60px;
+  padding-bottom: 0.5rem;
+  cursor: pointer;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  outline: none;
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Center the text vertically */
+}
+
+.floating-button button:hover {
+  background-color: #0056b3;
+}
+
+.placeheading{
+  font-family: "Baloo Chettan 2";
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+  margin: 0;
+}
+
+.places-main-content{
+  margin: 25px;
+}

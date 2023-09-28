@@ -1,0 +1,11 @@
+
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  width: 100vw;
+  min-height: 100vh;
+  overflow-x: hidden;
+  background-color: rgb(222, 217, 217);
+}
