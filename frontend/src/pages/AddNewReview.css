@@ -1,0 +1,18 @@
+.add-new-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+ 
+.inputbox{
+    margin: 15px;
+}
+
+.reviewheading{
+    /* color: #fff; */
+    font-family: "Baloo Chettan 2";
+    font-size: 30px;
+    margin-top: 30px;
+    font-style: normal;
+    font-weight: 500;
+}

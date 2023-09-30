@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Averia+Libre:wght@300&display=swap");
+
+.placecard {
+  max-width: 400px;
+  width: 350px;
+  margin: 40px;
+  display: grid;
+  /* height: 300px; */
+}
+
+.places-sub {
+  background-color: #007bff;
+  padding: 5px 15px;
+  border-radius: 0 0 10px 10px;
+  color: white;
+  font-family: "Averia Libre";
+}
+
+.places-heading {
+  color: #fff;
+  font-family: "Baloo Chettan 2";
+  font-size: 30px;
+  margin: 0;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.star-rating {
+  font-size: 24px;
+  display: inline-block;
+  margin: 0;
+}
+
+.star {
+  color: #ccc;
+  margin: 0.1rem;
+  font-size: 1.5rem; /* Adjust the size as needed */
+}
+
+.full-star {
+  color: #ffcc00; /* Color for full stars */
+}
+
+.half-star {
+  color: #ffcc00; /* Color for half stars */
+}
+
+.empty-star {
+  color: #ccc; /* Color for empty stars */
+}
+
+.places-content{
+    margin: 0;
+    margin-bottom: 25px;
+}
